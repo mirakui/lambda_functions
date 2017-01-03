@@ -1,0 +1,9 @@
+{
+  "name": "mirakui",
+  "role": "arn:aws:iam::1234567890XXX:role/apex_lambda_function",
+  "runtime": "python2.7",
+  "handler": "main.lambda_handler",
+  "environment": {
+    "SLACK_WEBHOOK_URL": ""
+  }
+}

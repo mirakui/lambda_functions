@@ -1,6 +1,7 @@
+import os
 import requests
 
-HOOK_URL = os.environ['slackWebhookUrl']
+HOOK_URL = os.environ['SLACK_WEBHOOK_URL']
 
 def lambda_handler(event, context):
     data = {
