@@ -1,0 +1,6 @@
+{
+  "description": "Post to slack incoming webhook",
+  "hooks": {
+    "build": "pip install -r requirements.txt -t ."
+  }
+}
